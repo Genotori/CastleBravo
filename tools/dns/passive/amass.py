@@ -12,7 +12,7 @@ class amass(object):
         self.target = target 
         self.tmpPath = tmpPath + '.txt'
         self.amassConfigPath = '/'.join(os.path.realpath(__file__).split('/')[:-1]) + '/tools/config.ini'
-        self.amassToolPath   = '/'.join(os.path.realpath(__file__).split('/')[:-1]) + '/tool/amass'
+        self.amassToolPath   = '/'.join(os.path.realpath(__file__).split('/')[:-1]) + '/tools/amass'
     
     def runProccess(self):
         print('[ - ] Running amass...')
