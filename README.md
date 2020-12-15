@@ -43,7 +43,7 @@ This repo. contains only some parts of the full version , if you want the most c
  
 ### setup
 
-- edit `config.json`
+- edit `config.json` __the tool is sensitive to changes in the config.json file, so to add other targets you don't need to restart it... just edit the file!__
 
 ```json
 
