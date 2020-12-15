@@ -11,7 +11,7 @@ class assetfinder(object):
     def __init__(self,target,tmpPath):
         self.target = target 
         self.tmpPath = tmpPath + '.txt'
-        self.assetfinderToolPath   = '/'.join(os.path.realpath(__file__).split('/')[:-1]) + '/tool/assetfinder'
+        self.assetfinderToolPath   = '/'.join(os.path.realpath(__file__).split('/')[:-1]) + '/tools/assetfinder'
     
     def runProccess(self):
         print('[ - ] Running assetfinder...')
