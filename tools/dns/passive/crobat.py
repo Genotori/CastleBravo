@@ -11,7 +11,7 @@ class crobat(object):
     def __init__(self,target,tmpPath):
         self.target = target 
         self.tmpPath = tmpPath + '.txt'
-        self.crobatToolPath   = '/'.join(os.path.realpath(__file__).split('/')[:-1]) + '/tool/crobat'
+        self.crobatToolPath   = '/'.join(os.path.realpath(__file__).split('/')[:-1]) + '/tools/crobat'
     
     def runProccess(self):
         print('[ - ] Running crobat...')
