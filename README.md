@@ -48,8 +48,8 @@ This repo. contains only some parts of the full version , if you want the most c
 ```json
 
 {
-    "inScope"     : ["example.com"],
-    "outScope"    : ["dev.example.com"],
+    "inScope"     : ["example.com","example1.com"],
+    "outScope"    : ["dev.example.com","outofscope.example1.com"],
     "target"      : "example.com",
     "projectName" : "exampleTarget",
     "keys" : {
